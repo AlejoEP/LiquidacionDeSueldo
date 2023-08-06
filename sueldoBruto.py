@@ -13,15 +13,15 @@ class SueldoBruto():
         return calculo
 
     def calcular_horas_nocturnas(self):
-        calculo = self.horas_nocturnas * 160.4229104477612
+        calculo = self.horas_nocturnas * 160.42
         return calculo
     
     def calcular_horas_extras(self):
-        calculo = self.horas_extras * 1203.171944444444
+        calculo = self.horas_extras * 1203.17
         return calculo 
     
     def calcular_horas_feriado(self):
-        calculo = self.feriado * 698.655
+        calculo = self.feriado * 698.6
         return calculo
    
     def suma_total_de_argumentos(self):
