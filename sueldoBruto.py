@@ -41,7 +41,5 @@ class SueldoBruto():
         return resultado_final
 
 
-#sueldo = SueldoBruto(3,134,36,22)
-#print(sueldo.suma_total_final())
 
 

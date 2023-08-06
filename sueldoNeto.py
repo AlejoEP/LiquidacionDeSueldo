@@ -16,8 +16,4 @@ class sueldoNeto(SueldoBruto):
     
     def descuento_final(self):
         descuento_total = self.suma_total_final() - (self.jubilacion() + self.ley_19032() + self.obra_social())
-        return descuento_total
-        
-
-r = sueldoNeto(3,134,36,22)
-print(round(r.descuento_final(),2))
+        return descuento_total        
