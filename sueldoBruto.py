@@ -6,8 +6,6 @@ class SueldoBruto():
         self.horas_nocturnas = horas_N
         self.horas_extras = horas_E
         self.feriado = horas_F
-        self.viatico = 25000
-        self.suma_no_renum = 37000
         self.presentismo = 16500
 
     def calcular_antiguedad(self):
@@ -35,7 +33,10 @@ class SueldoBruto():
         return resultado 
     
     def suma_total_final(self):
-        resultado1 = self.sueldoBasico + self.viatico + self.presentismo + self.suma_no_renum
+        viatico = 25000
+        suma_no_renum = 37000
+
+        resultado1 = self.sueldoBasico + self.presentismo + viatico + suma_no_renum
         resultado2 = self.suma_total_de_argumentos()
         resultado_final = resultado1 + resultado2
         return resultado_final
