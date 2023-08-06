@@ -20,4 +20,4 @@ class sueldoNeto(SueldoBruto):
         
 
 r = sueldoNeto(3,134,36,22)
-print(r.obra_social())
+print(round(r.descuento_final(),2))
